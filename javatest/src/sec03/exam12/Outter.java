@@ -1,0 +1,26 @@
+package sec03.exam12;
+
+import javax.swing.plaf.synth.SynthScrollBarUI;
+
+public class Outter {
+	String field = "Otter-field";
+	void method() {
+		System.out.println("Outter-method");
+	}
+	
+	
+	
+	class Nested{
+		String field = "Mested-field";
+		void method() {
+			System.out.println("Nested-method");
+		}
+		
+		void print() {
+			System.out.println(this.field);
+			this.method();
+			System.out.println(Outter.this.field);
+			Outter.this.method();
+		}
+	}
+}

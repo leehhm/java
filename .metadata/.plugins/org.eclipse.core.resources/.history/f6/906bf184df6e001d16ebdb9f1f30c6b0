@@ -1,0 +1,7 @@
+package sec04.exam11;
+
+public class Key {
+	public int hashCode() {
+		return number;
+	}
+}

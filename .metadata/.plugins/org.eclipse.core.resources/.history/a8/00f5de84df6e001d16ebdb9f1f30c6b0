@@ -1,0 +1,10 @@
+package sec06.exam18;
+
+public class CharacterConvertStreamExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
